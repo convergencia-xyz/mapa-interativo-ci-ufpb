@@ -1,36 +1,40 @@
-# Welcome to Remix + Vite!
 
-📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/future/vite) for details on supported features.
+# Mapa Interativo do Centro de Informática - UFPB
 
-## Development
+Este projeto é um protótipo (Proof of Concept - POC) que utiliza o framework [Remix.run](https://remix.run/) para transformar os mapas estáticos do Centro de Informática da UFPB em mapas interativos e dinâmicos. O objetivo é proporcionar uma experiência mais rica para a visualização das infraestruturas disponíveis.
 
-Run the Vite dev server:
+## Objetivo
 
-```shellscript
-npm run dev
+O protótipo busca implementar funcionalidades interativas em um mapa estático, permitindo que usuários cliquem em diferentes partes do mapa para obter mais informações detalhadas sobre cada local.
+
+## Tecnologias Utilizadas
+
+- [Remix.run](https://remix.run/): Framework baseado em React para construção de aplicações web modernas.
+- [Yarn](https://yarnpkg.com/): Gerenciador de pacotes para o projeto.
+
+## Configuração do Projeto
+
+Para iniciar o projeto localmente, siga os passos abaixo:
+
+### Pré-requisitos
+
+Antes de começar, você deve ter o [Node.js](https://nodejs.org/) e o [Yarn](https://yarnpkg.com/) instalados em sua máquina.
+
+### Instalação
+
+Clone o repositório e instale as dependências:
+
+```bash
+git clone <link-do-repositorio>
+cd <nome-do-repositorio>
+yarn
 ```
 
-## Deployment
+### Executando o Projeto
 
-First, build your app for production:
+Para rodar o projeto localmente, execute:
 
-```sh
-npm run build
+```bash
+yarn run dev
 ```
 
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
