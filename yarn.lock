@@ -1660,6 +1660,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tabler/icons-react@npm:^3.10.0":
+  version: 3.10.0
+  resolution: "@tabler/icons-react@npm:3.10.0"
+  dependencies:
+    "@tabler/icons": "npm:3.10.0"
+  peerDependencies:
+    react: ">= 16"
+  checksum: 10c0/2d89db74c16e9ff93e490b908318774a502235923460b01a27bf6d635b147b3e97e06cdfdd11f8a490218943d0a4f8485d9f2b72d8a0570a014d3f8de0c23b31
+  languageName: node
+  linkType: hard
+
+"@tabler/icons@npm:3.10.0":
+  version: 3.10.0
+  resolution: "@tabler/icons@npm:3.10.0"
+  checksum: 10c0/8b6b3d481a822b4bcdd7467a0d0dc14e7e7af56d98e61f9794bffc564c50be1fd0af1d216fcbf36e123916ac8f8a790fa8e60eeb9bbcfd40a2b7549a3888c7ad
+  languageName: node
+  linkType: hard
+
 "@types/acorn@npm:^4.0.0":
   version: 4.0.6
   resolution: "@types/acorn@npm:4.0.6"
@@ -8980,6 +8998,7 @@ __metadata:
     "@remix-run/node": "npm:^2.9.2"
     "@remix-run/react": "npm:^2.9.2"
     "@remix-run/serve": "npm:^2.9.2"
+    "@tabler/icons-react": "npm:^3.10.0"
     "@types/react": "npm:^18.3.3"
     "@types/react-dom": "npm:^18.3.0"
     "@typescript-eslint/eslint-plugin": "npm:^7.13.1"
